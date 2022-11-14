@@ -1,0 +1,172 @@
+@media (prefers-color-scheme: light) {
+    body {
+        /*background: url("https://www.onlychen.cn/bing.php");*/
+        /*color: black;*/
+    }
+
+    .white-pink, .white-pink-100 {
+        box-shadow: rgba(187, 187, 187, 1) 0 0 20px -1px;
+        -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0 20px -1px;
+        backdrop-filter: blur(30px);
+        color: black;
+    }
+
+    .white-pink .button {
+        border: 1px solid;
+    }
+
+    .btn .button {
+        border: 1px solid;
+    }
+
+    a {
+        color: black;
+    }
+
+    .popup-content {
+        background-color: white;
+    }
+
+    .top p {
+        color: black;
+        border-bottom: 1px solid black;
+    }
+
+    .info p {
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .white-pink, .white-pink-100 {
+        box-shadow: rgba(187, 187, 187, 1) 0 0 10px -1px;
+        -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0 10px -1px;
+        backdrop-filter: blur(20px);
+        color: white;
+    }
+
+    .white-pink .button {
+        border: 2px white solid;
+    }
+
+    .btn .button {
+        border: 2px solid white;
+    }
+
+    a {
+        color: white;
+    }
+
+    .popup-content {
+        background-color: black;
+    }
+
+    .top p {
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    .info p {
+        color: white;
+    }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.white-pink, .white-pink-100 {
+    margin-top: 20px;
+    appearance: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.white-pink {
+    max-width: 550px;
+}
+
+.white-pink h1 > span {
+    display: block;
+    font-size: 11px;
+}
+
+.white-pink label {
+    display: block;
+    margin: 0 0 5px;
+    min-height: 40px;
+    font-weight: normal;
+}
+
+.white-pink label > span {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 2px;
+    font-weight: normal;
+}
+
+.white-pink label > div {
+    float: left;
+    width: 60%;
+    padding: 3px 0 3px 5px;
+    margin-top: 8px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    height: 25px;
+    line-height: 15px;
+    outline: 0;
+    border-radius: 4px;
+}
+
+.white-pink input[type="text"], .white-pink input[type="file"], .white-pink input[type="date"], .white-pink select, .white-pink input[type="number"], .white-pink input[type="tel"], .white-pink textarea, .white-pink select, .white-pink input[type="email"], .white-pink input[type="password"], .white-pink input[type="url"], .white-pink input[type="search"], .white-pink input[type="time"], .white-pink input[type="datetime-local"], .white-pink input[type="month"], .white-pink input[type="week"] {
+    width: 60%;
+    padding: 3px 0 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    height: 25px;
+    line-height: 15px;
+    outline: 0;
+    border-radius: 4px;
+}
+
+
+.white-pink input[type="file"] {
+    color: white;
+}
+
+.white-pink .button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 5px;
+    appearance: none;
+}
+
+.white-pink .button:hover {
+    background-color: #4CAF50;
+}
+
+.white-pink .button:active {
+    position: relative;
+    top: 1px;
+}
+
+.text-center {
+    text-align: center;
+}
